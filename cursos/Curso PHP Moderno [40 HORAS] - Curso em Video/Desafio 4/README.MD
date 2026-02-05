@@ -23,6 +23,7 @@ Utilização da classe NumberFormatter
 Criação e processamento de formulários HTML com método GET
 
 API Utilizada
+
 A aplicação consome a API PTAX do Banco Central do Brasil, configurada para:
 Consultar um período de sete dias
 Ordenar os resultados de forma decrescente, priorizando a cotação mais recente
@@ -30,6 +31,7 @@ Retornar apenas a cotação de compra do dólar e a data da cotação
 Fornecer os dados no formato JSON
 
 Funcionamento da Aplicação
+
 O fluxo da aplicação ocorre da seguinte forma:
 O usuário informa o valor em reais por meio de um formulário HTML
 O PHP gera dinamicamente a data inicial e final para consulta da API
@@ -59,6 +61,7 @@ $cotacao = $dados["value"][0]["cotacaoCompra"];
 $dolar = $real / $cotacao;
 
 Aprendizados
+
 A realização deste desafio proporcionou os seguintes aprendizados:
 Integração do PHP com serviços externos em tempo real
 Consumo e interpretação de APIs REST
