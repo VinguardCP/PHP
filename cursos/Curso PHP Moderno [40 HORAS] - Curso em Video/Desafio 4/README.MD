@@ -72,7 +72,7 @@ $dados = json_decode(file_get_contents($url), true);
 $cotacao = $dados["value"][0]["cotacaoCompra"];
 
 $dolar = $real / $cotacao;
-
+```
 ---
 
 ## Aprendizados
