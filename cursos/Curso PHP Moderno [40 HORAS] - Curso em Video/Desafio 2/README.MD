@@ -27,7 +27,6 @@ Servidor local com XAMPP
 ## Estrutura dos Arquivos
 
 desafio-02/
-│
 ├ desafio2.php  
 ├ style.css  
 └ README.md  
